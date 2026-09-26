@@ -4,7 +4,7 @@
 		"create social social schedule"
 		"create manage maintain schedule"
 		"write manage maintain schedule"
-		"write manage grow grow";
+		"write faster grow grow";
 	grid-template-columns: repeat(4, 15vw);
 	gap: 30px;
 }

@@ -1,0 +1,23 @@
+.section {
+	grid-area: maintain;
+	background-color: var(--color-yellow);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.maintain {
+	font-weight: 500;
+	letter-spacing: -2px;
+	line-height: 1;
+}
+
+.consistentSchedule {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 30px;
+}

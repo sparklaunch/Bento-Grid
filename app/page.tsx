@@ -1,4 +1,5 @@
 import Create from "./components/Create";
+import Maintain from "./components/Maintain";
 import Manage from "./components/Manage";
 import Schedule from "./components/Schedule";
 import Social from "./components/Social";
@@ -11,6 +12,7 @@ export default function Home() {
 			<Social />
 			<Schedule />
 			<Manage />
+			<Maintain />
 		</main>
 	);
 }
