@@ -5,6 +5,7 @@
 		"create manage maintain schedule"
 		"write manage maintain schedule"
 		"write faster grow grow";
-	grid-template-columns: repeat(4, 15vw);
+	grid-template-columns: repeat(4, 18vw);
 	gap: 30px;
+	margin: 30px auto;
 }
