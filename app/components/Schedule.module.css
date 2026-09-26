@@ -1,0 +1,29 @@
+.section {
+	grid-area: schedule;
+	background-color: var(--color-purple);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	overflow: hidden;
+}
+
+.schedule {
+	font-weight: 500;
+	letter-spacing: -2px;
+	line-height: 1;
+}
+
+.schedulePosts {
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: 30%;
+}
+
+.optimize {
+	line-height: 1;
+	font-size: 16px;
+}
