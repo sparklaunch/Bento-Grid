@@ -1,0 +1,10 @@
+.main {
+	display: grid;
+	grid-template-areas:
+		"create ai ai schedule"
+		"create manage maintain schedule"
+		"write manage maintain schedule"
+		"write manage grow grow";
+	grid-template-columns: repeat(4, 200px);
+	gap: 30px;
+}

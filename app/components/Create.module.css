@@ -1,0 +1,26 @@
+.section {
+	grid-area: create;
+	background-color: var(--color-beige);
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.create {
+	font-weight: 500;
+	letter-spacing: -2px;
+}
+
+.quicker {
+	color: var(--color-violet);
+	font-style: italic;
+	margin-left: 5px;
+}
+
+.createPost {
+	width: 100%;
+	height: auto;
+}
