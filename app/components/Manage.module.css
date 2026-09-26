@@ -1,0 +1,21 @@
+.section {
+	grid-area: manage;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	overflow: hidden;
+}
+
+.multiplePlatforms {
+	width: 160%;
+	height: auto;
+	position: relative;
+	left: 0;
+}
+
+.manage {
+	font-weight: 500;
+	letter-spacing: -2px;
+	line-height: 1;
+}
