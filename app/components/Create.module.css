@@ -12,6 +12,7 @@
 .create {
 	font-weight: 500;
 	letter-spacing: -2px;
+	overflow-wrap: break-word;
 }
 
 .quicker {
