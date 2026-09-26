@@ -1,0 +1,40 @@
+.section {
+	grid-area: social;
+	background-color: var(--color-violet);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.social {
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.times {
+	color: var(--color-yellow);
+	margin: 0 10px;
+}
+
+.faster {
+	font-style: italic;
+	margin-right: 10px;
+}
+
+.fiveStars {
+	width: 50%;
+	height: auto;
+}
+
+.reviews {
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+}
