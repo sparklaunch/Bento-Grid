@@ -3,6 +3,7 @@ import Maintain from "./components/Maintain";
 import Manage from "./components/Manage";
 import Schedule from "./components/Schedule";
 import Social from "./components/Social";
+import Write from "./components/Write";
 import styles from "./Home.module.css";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 			<Schedule />
 			<Manage />
 			<Maintain />
+			<Write />
 		</main>
 	);
 }
