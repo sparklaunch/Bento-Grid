@@ -21,3 +21,9 @@
 	position: relative;
 	top: 30px;
 }
+
+@media (max-width: 800px) {
+	.consistentSchedule {
+		width: 80%;
+	}
+}

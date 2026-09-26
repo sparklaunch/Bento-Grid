@@ -22,3 +22,15 @@
 	max-width: 100%;
 	overflow-wrap: break-word;
 }
+
+@media (max-width: 800px) {
+	.section {
+		flex-direction: column;
+	}
+	.growFollowers {
+		width: 80%;
+	}
+	.grow {
+		text-align: center;
+	}
+}

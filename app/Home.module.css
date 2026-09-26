@@ -9,3 +9,19 @@
 	gap: 30px;
 	margin: 30px auto;
 }
+
+@media (max-width: 800px) {
+	.main {
+		grid-template-areas:
+			"social"
+			"manage"
+			"maintain"
+			"schedule"
+			"grow"
+			"faster"
+			"create"
+			"write";
+		grid-template-columns: none;
+		width: 90%;
+	}
+}

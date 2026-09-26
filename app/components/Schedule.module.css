@@ -27,3 +27,12 @@
 	line-height: 1;
 	font-size: 16px;
 }
+
+@media (max-width: 800px) {
+	.schedulePosts {
+		width: 100%;
+	}
+	.optimize {
+		text-align: center;
+	}
+}

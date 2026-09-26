@@ -16,11 +16,17 @@
 }
 
 .faster {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1;
 }
 
 .audienceGrowth {
 	width: 100%;
 	height: auto;
+}
+
+@media (max-width: 800px) {
+	.audienceGrowth {
+		width: 60%;
+	}
 }
