@@ -1,5 +1,6 @@
 import Create from "./components/Create";
 import Faster from "./components/Faster";
+import Grow from "./components/Grow";
 import Maintain from "./components/Maintain";
 import Manage from "./components/Manage";
 import Schedule from "./components/Schedule";
@@ -17,6 +18,7 @@ export default function Home() {
 			<Maintain />
 			<Write />
 			<Faster />
+			<Grow />
 		</main>
 	);
 }
